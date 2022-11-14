@@ -65,6 +65,7 @@
             this.btnEstudante.TabIndex = 2;
             this.btnEstudante.Text = "Àrea do Estudante";
             this.btnEstudante.UseVisualStyleBackColor = true;
+            this.btnEstudante.Click += new System.EventHandler(this.btnEstudante_Click);
             // 
             // btnAdministracao
             // 

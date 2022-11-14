@@ -26,5 +26,12 @@ namespace Library
             loginAdmin.BringToFront();
             loginAdmin.Show();
         }
+
+        private void btnEstudante_Click(object sender, EventArgs e)
+        {
+            LoginEstudante loginEstudante = new LoginEstudante();
+            loginEstudante.BringToFront();
+            loginEstudante.Show();
+        }
     }
 }
