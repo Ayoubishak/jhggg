@@ -1,0 +1,15 @@
+G:\IFNMG\Programação Visual\library\Library\bin\Debug\Library.exe.config
+G:\IFNMG\Programação Visual\library\Library\bin\Debug\Library.exe
+G:\IFNMG\Programação Visual\library\Library\bin\Debug\Library.pdb
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.csproj.SuggestedBindingRedirects.cache
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.AreaAdmin.resources
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.LoginAdmin.resources
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.LoginEstudante.resources
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.WindowCadastroUser.resources
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.WindowMain.resources
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.Properties.Resources.resources
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.csproj.GenerateResource.cache
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.exe
+G:\IFNMG\Programação Visual\library\Library\obj\Debug\Library.pdb

@@ -84,7 +84,9 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(623, 367);
             this.Controls.Add(this.pnlMain);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "WindowMain";
             this.Text = "School Library";
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();

@@ -21,10 +21,14 @@ namespace Library
 
         private void btnAdministracao_Click(object sender, EventArgs e)
         {
+            this.Hide();
 
             LoginAdmin loginAdmin = LoginAdmin.GetInstance();
             loginAdmin.BringToFront();
-            loginAdmin.Show();
+            loginAdmin.ShowDialog();
+
+            if (loginAdmin.IsDisposed)
+                Close();
         }
 
         private void btnEstudante_Click(object sender, EventArgs e)

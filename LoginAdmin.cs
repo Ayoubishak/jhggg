@@ -77,12 +77,28 @@ namespace Library
 
             if (BancoDadosSimulado.LoginAdmin(txtUsername.Text, txtSenha.Text) == true)
             {
+                this.Close();
 
+                AreaAdmin areaAdmin = new AreaAdmin();
+                areaAdmin.Show();
             }
             else
             {
                 MessageBox.Show("Usuário ou Senha inválido.");
             }
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            WindowMain windowMain = new WindowMain();
+            windowMain.Show();
+
+            this.Close();
+        }
+
+        private void LoginAdmin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Dispose();
         }
     }
 }

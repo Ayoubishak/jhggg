@@ -47,8 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.cs" />
+    <Compile Include="AreaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaAdmin.Designer.cs">
+      <DependentUpon>AreaAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autor.cs" />
     <Compile Include="BancoDadosSimulado.cs" />
+    <Compile Include="Editora.cs" />
     <Compile Include="Estudante.cs" />
+    <Compile Include="Livro.cs" />
     <Compile Include="LoginAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AreaAdmin.resx">
+      <DependentUpon>AreaAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginAdmin.resx">
       <DependentUpon>LoginAdmin.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +124,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
